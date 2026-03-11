@@ -1,0 +1,5 @@
+{
+  "rewrites": [
+    { "source": "/", "destination": "/thebrandle.framer.website/index.html" }
+  ]
+}
