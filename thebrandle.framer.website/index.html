@@ -43,6 +43,13 @@
 
         /* General site fixes */
         a[href*="404"] { display: none !important; }
+
+        /* Hide the (17) counter in the hero section */
+        .framer-1ft9wiu { display: none !important; visibility: hidden !important; }
+
+        /* Fix footer logo: prevent clipping */
+        .framer-1b5i8re svg { overflow: visible !important; }
+        .framer-1bscsag { overflow: visible !important; }
 	</style>
 	<script>
 		// Global fixes for logos and section cleansing
@@ -74,6 +81,29 @@
                 // Ensure no images are showing in hidden/removed sections
                 const teamSec = document.querySelectorAll('.framer-unwsa7 img, .framer-wfeje img');
                 teamSec.forEach(img => { img.style.display = 'none'; });
+
+                // Fix copyright: replace ©19-24 with 2026
+                document.querySelectorAll('.framer-5s8aef').forEach(el => {
+                    const p = el.querySelector('p');
+                    if (p && (p.textContent.includes('19-24') || p.textContent.includes('©'))) {
+                        p.textContent = '2026';
+                    }
+                });
+
+                // Fix footer logo: widen the SVG viewBox so full text shows
+                document.querySelectorAll('.framer-1b5i8re svg').forEach(svg => {
+                    const vb = svg.getAttribute('viewBox');
+                    if (vb && (vb.includes('288 156') || vb.includes('269 146'))) {
+                        svg.setAttribute('viewBox', '0 0 620 156');
+                    }
+                    // Also reduce font size in the text
+                    svg.querySelectorAll('p').forEach(p => {
+                        const fs = p.style.getPropertyValue('--framer-font-size');
+                        if (fs && parseFloat(fs) > 150) {
+                            p.style.setProperty('--framer-font-size', '120px');
+                        }
+                    });
+                });
 			});
 
 			observer.observe(document.body, { childList: true, subtree: true, attributes: true });
