@@ -48,7 +48,7 @@
         .framer-1ft9wiu { display: none !important; visibility: hidden !important; }
 
         /* Fix footer logo: prevent clipping */
-        .framer-1b5i8re svg { overflow: visible !important; }
+        svg.framer-1b5i8re { overflow: visible !important; }
         .framer-1bscsag { overflow: visible !important; }
 	</style>
 	<script>
@@ -91,10 +91,10 @@
                 });
 
                 // Fix footer logo: widen the SVG viewBox so full text shows
-                document.querySelectorAll('.framer-1b5i8re svg').forEach(svg => {
+                document.querySelectorAll('svg.framer-1b5i8re').forEach(svg => {
                     const vb = svg.getAttribute('viewBox');
-                    if (vb && (vb.includes('288 156') || vb.includes('269 146'))) {
-                        svg.setAttribute('viewBox', '0 0 620 156');
+                    if (vb) {
+                        svg.setAttribute('viewBox', '0 0 620 120');
                     }
                     // Also reduce font size in the text
                     svg.querySelectorAll('p').forEach(p => {
