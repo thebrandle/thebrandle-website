@@ -7,7 +7,7 @@ export default function metadata(params, activeLocale) {
       "https://framerusercontent.com/assets/0qZrfBuw0vpXfqa4iQEyDlGqjU.png",
     robots: "max-image-preview:large",
     socialImage:
-      "https://framerusercontent.com/assets/YNmypiM868x4WUMKO25HF3tDPN4.jpg",
+      "https://framerusercontent.com/assets/abstract_bg.png",
     title: "Thebrandle Studio | Digital Design & Brand Development Agency",
   };
 }
