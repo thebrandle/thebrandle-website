@@ -7967,9 +7967,8 @@ const Component = /*#__PURE__*/ React.forwardRef(function (props, ref) {
                                     sizes: `max(min(${
                                       componentViewport?.width || "100vw"
                                     } - 48px, 1848px), 1px)`,
-                                    src: "https://framerusercontent.com/images/RuuVHScXn21DshuJ5CzY9yFPrU.jpg?width=645&height=908",
-                                    srcSet:
-                                      "https://framerusercontent.com/images/RuuVHScXn21DshuJ5CzY9yFPrU.jpg?width=645&height=908 645w",
+                                    src: "https://framerusercontent.com/images/muteeb_bw.png?width=645&height=908",
+                                    srcSet: "",
                                   },
                                 },
                                 toDtyncsd: {
@@ -7983,9 +7982,8 @@ const Component = /*#__PURE__*/ React.forwardRef(function (props, ref) {
                                     sizes: `max((min(${
                                       componentViewport?.width || "100vw"
                                     } - 64px, 1848px) - 80px) / 3, 1px)`,
-                                    src: "https://framerusercontent.com/images/RuuVHScXn21DshuJ5CzY9yFPrU.jpg?width=645&height=908",
-                                    srcSet:
-                                      "https://framerusercontent.com/images/RuuVHScXn21DshuJ5CzY9yFPrU.jpg?width=645&height=908 645w",
+                                    src: "https://framerusercontent.com/images/muteeb_bw.png?width=645&height=908",
+                                    srcSet: "",
                                   },
                                 },
                               },
@@ -8012,9 +8010,8 @@ const Component = /*#__PURE__*/ React.forwardRef(function (props, ref) {
                                   sizes: `max((min(${
                                     componentViewport?.width || "100vw"
                                   } - 72px, 1848px) - 40px) / 4, 1px)`,
-                                  src: "https://framerusercontent.com/images/RuuVHScXn21DshuJ5CzY9yFPrU.jpg?width=645&height=908",
-                                  srcSet:
-                                    "https://framerusercontent.com/images/RuuVHScXn21DshuJ5CzY9yFPrU.jpg?width=645&height=908 645w",
+                                  src: "https://framerusercontent.com/images/muteeb_bw.png?width=645&height=908",
+                                  srcSet: "",
                                 },
                                 className: "framer-13fa9aj",
                                 "data-framer-name": "Image",
