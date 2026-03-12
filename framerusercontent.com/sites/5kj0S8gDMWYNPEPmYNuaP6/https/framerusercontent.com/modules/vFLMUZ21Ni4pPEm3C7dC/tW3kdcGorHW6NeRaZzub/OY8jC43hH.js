@@ -76,7 +76,7 @@ const getProps = ({
         postfix !== null && postfix !== void 0 ? postfix : props.NTNr8ISIZ) !==
         null && _ref2 !== void 0
         ? _ref2
-        : "\xae",
+        : "",
     UgtvNbvgs:
       (_ref3 =
         postfixSize !== null && postfixSize !== void 0
@@ -201,7 +201,7 @@ const Component = /*#__PURE__*/ React.forwardRef(function (props, ref) {
                     "--framer-text-color":
                       "var(--extracted-r6o4lv, var(--variable-reference-V3Qt9yDai-OY8jC43hH))",
                   },
-                  children: "\xae",
+                  children: "",
                 }),
               }),
               className: "framer-ya4f7v",
@@ -258,7 +258,7 @@ addPropertyControls(FramerOY8jC43hH, {
     type: ControlType.Number,
   },
   NTNr8ISIZ: {
-    defaultValue: "\xae",
+    defaultValue: "",
     displayTextArea: false,
     title: "Postfix",
     type: ControlType.String,

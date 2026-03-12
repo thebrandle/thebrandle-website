@@ -866,7 +866,7 @@ const Component = /*#__PURE__*/ React.forwardRef(function (props, ref) {
                                           height: "100%",
                                           id: "fJR6ucStH",
                                           layoutId: "fJR6ucStH",
-                                          NTNr8ISIZ: "\xae",
+                                          NTNr8ISIZ: "",
                                           UgtvNbvgs: 14,
                                           V3Qt9yDai:
                                             "var(--token-09fd1980-8076-4f0b-8bb4-7ba5919ad6b8, rgb(12, 12, 12))",
@@ -2235,7 +2235,7 @@ const Component = /*#__PURE__*/ React.forwardRef(function (props, ref) {
                                         height: "100%",
                                         id: "cVrPdzlbi",
                                         layoutId: "cVrPdzlbi",
-                                        NTNr8ISIZ: "\xae",
+                                        NTNr8ISIZ: "",
                                         UgtvNbvgs: 27,
                                         V3Qt9yDai:
                                           "var(--token-d74d16c5-23aa-4649-a2ad-0da8c936dade, rgb(255, 255, 255))",

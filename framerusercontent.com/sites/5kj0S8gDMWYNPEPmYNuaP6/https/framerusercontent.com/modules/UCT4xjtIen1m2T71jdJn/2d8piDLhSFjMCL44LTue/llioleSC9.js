@@ -351,7 +351,7 @@ const Component = /*#__PURE__*/ React.forwardRef(function (props, ref) {
                               "--framer-text-color":
                                 "var(--extracted-r6o4lv, var(--token-d74d16c5-23aa-4649-a2ad-0da8c936dade, rgb(255, 255, 255)))",
                             },
-                            children: "\xae",
+                            children: "",
                           }),
                         }),
                         className: "framer-q6nwym",
