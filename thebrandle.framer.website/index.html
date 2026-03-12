@@ -62,51 +62,57 @@
 				'https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg'
 			];
 			let logoIndex = 0;
-            const logoMap = new Map();
+			const logoMap = new Map();
 
-			const observer = new MutationObserver(() => {
-				const carouselWrappers = document.querySelectorAll('.framer-46623r');
-				carouselWrappers.forEach((wrapper) => {
+			function applyFixes() {
+				// Logo carousel fix
+				document.querySelectorAll('.framer-46623r').forEach(wrapper => {
 					const img = wrapper.querySelector('img');
 					if (img && img.src.includes('logoipsum')) {
-                        if (!logoMap.has(img.src)) {
-                            logoMap.set(img.src, realLogos[logoIndex % realLogos.length]);
-                            logoIndex++;
-                        }
+						if (!logoMap.has(img.src)) {
+							logoMap.set(img.src, realLogos[logoIndex % realLogos.length]);
+							logoIndex++;
+						}
 						img.src = logoMap.get(img.src);
-                        img.srcset = "";
+						img.srcset = '';
 					}
 				});
-                
-                // Ensure no images are showing in hidden/removed sections
-                const teamSec = document.querySelectorAll('.framer-unwsa7 img, .framer-wfeje img');
-                teamSec.forEach(img => { img.style.display = 'none'; });
 
-                // Fix copyright: replace ©19-24 with 2026
-                document.querySelectorAll('.framer-5s8aef').forEach(el => {
-                    const p = el.querySelector('p');
-                    if (p && (p.textContent.includes('19-24') || p.textContent.includes('©'))) {
-                        p.textContent = '2026';
-                    }
-                });
+				// Hide images in removed sections
+				document.querySelectorAll('.framer-unwsa7 img, .framer-wfeje img').forEach(img => {
+					if (img.style.display !== 'none') img.style.display = 'none';
+				});
 
-                // Fix footer logo: widen the SVG viewBox so full text shows
-                document.querySelectorAll('svg.framer-1b5i8re').forEach(svg => {
-                    const vb = svg.getAttribute('viewBox');
-                    if (vb) {
-                        svg.setAttribute('viewBox', '0 0 620 120');
-                    }
-                    // Also reduce font size in the text
-                    svg.querySelectorAll('p').forEach(p => {
-                        const fs = p.style.getPropertyValue('--framer-font-size');
-                        if (fs && parseFloat(fs) > 150) {
-                            p.style.setProperty('--framer-font-size', '120px');
-                        }
-                    });
-                });
+				// Fix copyright: replace ©19-24 with 2026
+				document.querySelectorAll('.framer-5s8aef').forEach(el => {
+					const p = el.querySelector('p');
+					if (p && p.textContent !== '2026' && (p.textContent.includes('19-24') || p.textContent.includes('\u00a9'))) {
+						p.textContent = '2026';
+					}
+				});
+
+				// Fix footer logo viewBox
+				document.querySelectorAll('svg.framer-1b5i8re').forEach(svg => {
+					if (svg.getAttribute('viewBox') !== '0 0 620 120') {
+						svg.setAttribute('viewBox', '0 0 620 120');
+					}
+					svg.querySelectorAll('p').forEach(p => {
+						const fs = p.style.getPropertyValue('--framer-font-size');
+						if (fs && parseFloat(fs) > 150) {
+							p.style.setProperty('--framer-font-size', '120px');
+						}
+					});
+				});
+			}
+
+			const observer = new MutationObserver(() => {
+				observer.disconnect();
+				applyFixes();
+				observer.observe(document.body, { childList: true, subtree: true });
 			});
 
-			observer.observe(document.body, { childList: true, subtree: true, attributes: true });
+			observer.observe(document.body, { childList: true, subtree: true });
+			applyFixes();
 		});
 	</script>
 		<style>
