@@ -2209,9 +2209,9 @@ const Component = /*#__PURE__*/ React.forwardRef(function (props, ref) {
                               positionX: "59.6%",
                               positionY: "50%",
                               sizes: componentViewport?.width || "100vw",
-                              src: "https://framerusercontent.com/images/MRuoFuMbnw5FFImDwyAVxU4sYs.jpg?width=2500&height=1500",
+                              src: "https://framerusercontent.com/images/muteeb_pic.png?width=2500&height=1500",
                               srcSet:
-                                "https://framerusercontent.com/images/MRuoFuMbnw5FFImDwyAVxU4sYs.jpg?scale-down-to=512&width=2500&height=1500 512w,https://framerusercontent.com/images/MRuoFuMbnw5FFImDwyAVxU4sYs.jpg?scale-down-to=1024&width=2500&height=1500 1024w,https://framerusercontent.com/images/MRuoFuMbnw5FFImDwyAVxU4sYs.jpg?scale-down-to=2048&width=2500&height=1500 2048w,https://framerusercontent.com/images/MRuoFuMbnw5FFImDwyAVxU4sYs.jpg?width=2500&height=1500 2500w",
+                                "https://framerusercontent.com/images/muteeb_pic.png?scale-down-to=512&width=2500&height=1500 512w,https://framerusercontent.com/images/muteeb_pic.png?scale-down-to=1024&width=2500&height=1500 1024w,https://framerusercontent.com/images/muteeb_pic.png?scale-down-to=2048&width=2500&height=1500 2048w,https://framerusercontent.com/images/muteeb_pic.png?width=2500&height=1500 2500w",
                             },
                             initial: animation19,
                           },
@@ -2222,9 +2222,9 @@ const Component = /*#__PURE__*/ React.forwardRef(function (props, ref) {
                               pixelHeight: 1500,
                               pixelWidth: 2500,
                               sizes: componentViewport?.width || "100vw",
-                              src: "https://framerusercontent.com/images/MRuoFuMbnw5FFImDwyAVxU4sYs.jpg?width=2500&height=1500",
+                              src: "https://framerusercontent.com/images/muteeb_pic.png?width=2500&height=1500",
                               srcSet:
-                                "https://framerusercontent.com/images/MRuoFuMbnw5FFImDwyAVxU4sYs.jpg?scale-down-to=512&width=2500&height=1500 512w,https://framerusercontent.com/images/MRuoFuMbnw5FFImDwyAVxU4sYs.jpg?scale-down-to=1024&width=2500&height=1500 1024w,https://framerusercontent.com/images/MRuoFuMbnw5FFImDwyAVxU4sYs.jpg?scale-down-to=2048&width=2500&height=1500 2048w,https://framerusercontent.com/images/MRuoFuMbnw5FFImDwyAVxU4sYs.jpg?width=2500&height=1500 2500w",
+                                "https://framerusercontent.com/images/muteeb_pic.png?scale-down-to=512&width=2500&height=1500 512w,https://framerusercontent.com/images/muteeb_pic.png?scale-down-to=1024&width=2500&height=1500 1024w,https://framerusercontent.com/images/muteeb_pic.png?scale-down-to=2048&width=2500&height=1500 2048w,https://framerusercontent.com/images/muteeb_pic.png?width=2500&height=1500 2500w",
                             },
                           },
                         },
@@ -2246,9 +2246,9 @@ const Component = /*#__PURE__*/ React.forwardRef(function (props, ref) {
                               pixelHeight: 1500,
                               pixelWidth: 2500,
                               sizes: componentViewport?.width || "100vw",
-                              src: "https://framerusercontent.com/images/MRuoFuMbnw5FFImDwyAVxU4sYs.jpg?width=2500&height=1500",
+                              src: "https://framerusercontent.com/images/muteeb_pic.png?width=2500&height=1500",
                               srcSet:
-                                "https://framerusercontent.com/images/MRuoFuMbnw5FFImDwyAVxU4sYs.jpg?scale-down-to=512&width=2500&height=1500 512w,https://framerusercontent.com/images/MRuoFuMbnw5FFImDwyAVxU4sYs.jpg?scale-down-to=1024&width=2500&height=1500 1024w,https://framerusercontent.com/images/MRuoFuMbnw5FFImDwyAVxU4sYs.jpg?scale-down-to=2048&width=2500&height=1500 2048w,https://framerusercontent.com/images/MRuoFuMbnw5FFImDwyAVxU4sYs.jpg?width=2500&height=1500 2500w",
+                                "https://framerusercontent.com/images/muteeb_pic.png?scale-down-to=512&width=2500&height=1500 512w,https://framerusercontent.com/images/muteeb_pic.png?scale-down-to=1024&width=2500&height=1500 1024w,https://framerusercontent.com/images/muteeb_pic.png?scale-down-to=2048&width=2500&height=1500 2048w,https://framerusercontent.com/images/muteeb_pic.png?width=2500&height=1500 2500w",
                             },
                             className: "framer-1tl276o",
                             "data-framer-appear-id": "1tl276o",
@@ -8130,12 +8130,12 @@ const Component = /*#__PURE__*/ React.forwardRef(function (props, ref) {
                                             "--framer-text-color":
                                               "var(--token-09fd1980-8076-4f0b-8bb4-7ba5919ad6b8, rgb(12, 12, 12))",
                                           },
-                                          children: "Annie Bassett",
+                                          children: "Muteeb Mehraj",
                                         }),
                                       }
                                     ),
                                     className: "framer-7k06y8",
-                                    "data-framer-name": "Annie Bassett",
+                                    "data-framer-name": "Muteeb Mehraj",
                                     fonts: ["Inter"],
                                     verticalAlignment: "top",
                                     withExternalLayout: true,
@@ -8154,13 +8154,13 @@ const Component = /*#__PURE__*/ React.forwardRef(function (props, ref) {
                                               "rgba(12, 12, 12, 0.6)",
                                           },
                                           children:
-                                            "Project manager and founder",
+                                            "Founder",
                                         }),
                                       }
                                     ),
                                     className: "framer-xifhev",
                                     "data-framer-name":
-                                      "Project manager and founder",
+                                      "Founder",
                                     fonts: ["Inter"],
                                     verticalAlignment: "top",
                                     withExternalLayout: true,
