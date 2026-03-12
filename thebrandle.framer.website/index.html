@@ -4,7 +4,7 @@
 <html lang="en" data-redirect-timezone="1">
 <head>
 	<style>
-		/* Hide "Get Template" button and "Made in Framer" badge globally */
+		/* Hide Framer UI elements globally */
 		.__framer-badge,
 		#__framer-badge-container,
 		.framer-sdix5y,
@@ -18,108 +18,10 @@
 			pointer-events: none !important;
 		}
 	
-		/* Hide Team member cards and thumbnails */
-		.framer-1624jwp, .framer-mh4amm {
-			display: none !important;
-		}
-
-        /* Abstract Team Background */
-        .framer-unwsa7 * {
-            /* If there are any img or image containers, we can hide them and apply background here */
-            /* Actually, we can just let JS or CSS handle the background image. Let's force an abstract background image. */
-        }
-        .framer-unwsa7 {
-            background-image: url('/framerusercontent.com/images/abstract_bg.png') !important;
-            background-size: cover !important;
-            background-position: center !important;
-        }
+		/* Section hiding and layout fixes */
+        .framer-wfeje, .framer-unwsa7 { display: none !important; height: 0 !important; overflow: hidden !important; }
         
-        /* Footer logo sizing fix */
-        .framer-1b5i8re {
-            overflow: visible !important;
-            width: 100% !important;
-            height: auto !important;
-            max-width: 100% !important;
-        }
-        .framer-1bscsag {
-            overflow: visible !important;
-        }
-        .framer-1b5i8re foreignObject {
-            width: 100% !important;
-            overflow: visible !important;
-        }
-        .framer-1b5i8re .framer-fit-text {
-            overflow: visible !important;
-        }
-        .framer-1b5i8re .framer-text {
-            font-size: 60px !important; 
-            --framer-font-size: 60px !important;
-            line-height: 1 !important;
-            white-space: nowrap !important;
-        }
-
-	
-		/* Hide Team member cards and thumbnails */
-		.framer-1624jwp, .framer-mh4amm {
-			display: none !important;
-		}
-
-        /* Abstract Team Background */
-        .framer-unwsa7 * {
-            /* If there are any img or image containers, we can hide them and apply background here */
-            /* Actually, we can just let JS or CSS handle the background image. Let's force an abstract background image. */
-        }
-        .framer-unwsa7 {
-            background-image: url('/framerusercontent.com/images/abstract_bg.png') !important;
-            background-size: cover !important;
-            background-position: center !important;
-        }
-        
-        /* Footer logo sizing fix */
-        .framer-1b5i8re {
-            object-fit: contain !important;
-            max-width: 100% !important;
-            max-height: 100% !important;
-        }
-
-	
-        /* Hide Meet our team */
-        .framer-unwsa7 { display: none !important; }
-        
-        /* Let's bring your vision to life: hide left panel and center right panel */
-        .framer-1a4ob2z { display: none !important; }
-        .framer-1t0mvh9 {
-            margin: 0 auto !important;
-            float: none !important;
-            display: flex !important;
-            justify-content: center !important;
-            width: 100% !important;
-        }
-
-        /* Footer R symbol */
-        .framer-1b5i8re { position: relative !important; }
-        .framer-1xb848l {
-            position: absolute !important;
-            top: 5px !important;
-            right: -25px !important;
-            margin: 0 !important;
-            width: auto !important;
-            height: auto !important;
-        }
-        .framer-1xb848l p {
-            font-size: 30px !important;
-            --framer-font-size: 30px !important;
-            line-height: 1 !important;
-        }
-
-        /* Hide 404 */
-        a[href*="404"] { display: none !important; }
-
-
-        /* Remove Meet our team completely */
-        .framer-unwsa7 { display: none !important; }
-        
-        /* Vision tweaks */
+        /* Vision tweaks: Center form and hide left panel */
         .framer-1a4ob2z { display: none !important; height: 0 !important; width: 0 !important; overflow: hidden !important; }
         .framer-1t0mvh9 {
             margin: 0 auto !important;
@@ -129,34 +31,21 @@
             width: 100% !important;
         }
 
-        /* Footer R symbol */
-        .framer-1b5i8re { position: relative !important; }
-        .framer-1xb848l {
-            position: absolute !important;
-            top: 0px !important;
-            right: 0px !important;
-            transform: translateX(100%) !important;
-            margin: 0 !important;
-            width: auto !important;
-            height: auto !important;
+        /* Footer logo sizing fix */
+        .framer-1b5i8re {
+            object-fit: contain !important;
+            max-width: 100% !important;
+            max-height: 100% !important;
         }
-        .framer-1xb848l p.framer-text {
-            font-size: 25px !important;
-            --framer-font-size: 25px !important;
-            line-height: 1 !important;
-            margin: 0 !important;
-        }
-
-        /* Hide 404 */
-        a[href*="404"] { display: none !important; opacity: 0 !important; pointer-events: none !important; }
-
-
-        /* Remove R symbol container */
-        .framer-1xb848l { display: none !important; visibility: hidden !important; opacity: 0 !important; }
         
-</style>
+        /* Footer R symbol: already removed from DOM but hide container just in case */
+        .framer-1xb848l { display: none !important; visibility: hidden !important; }
+
+        /* General site fixes */
+        a[href*="404"] { display: none !important; }
+	</style>
 	<script>
-		// Replace Dummy Logos
+		// Global fixes for logos and section cleansing
 		document.addEventListener('DOMContentLoaded', () => {
 			const realLogos = [
 				'https://upload.wikimedia.org/wikipedia/commons/e/e8/Binance_Logo.svg',
@@ -182,16 +71,98 @@
 					}
 				});
                 
-                // Remove team background imgs specifically
-                const teamSec = document.querySelectorAll('.framer-unwsa7 img');
+                // Ensure no images are showing in hidden/removed sections
+                const teamSec = document.querySelectorAll('.framer-unwsa7 img, .framer-wfeje img');
                 teamSec.forEach(img => { img.style.display = 'none'; });
 			});
 
 			observer.observe(document.body, { childList: true, subtree: true, attributes: true });
 		});
 	</script>
+		<style>
+		/* Hide Framer UI elements globally */
+		.__framer-badge,
+		#__framer-badge-container,
+		.framer-sdix5y,
+		.framer-sVf7t,
+		.framer-jmWos,
+		[data-framer-name="Purchase Button"],
+		[data-framer-name="Created by 2"] {
+			display: none !important;
+			opacity: 0 !important;
+			visibility: hidden !important;
+			pointer-events: none !important;
+		}
+	
+		/* Section hiding and layout fixes */
+        .framer-wfeje, .framer-unwsa7 { display: none !important; height: 0 !important; overflow: hidden !important; }
+        
+        /* Vision tweaks: Center form and hide left panel */
+        .framer-1a4ob2z { display: none !important; height: 0 !important; width: 0 !important; overflow: hidden !important; }
+        .framer-1t0mvh9 {
+            margin: 0 auto !important;
+            float: none !important;
+            display: flex !important;
+            justify-content: center !important;
+            width: 100% !important;
+        }
+
+        /* Footer logo sizing fix */
+        .framer-1b5i8re {
+            object-fit: contain !important;
+            max-width: 100% !important;
+            max-height: 100% !important;
+        }
+        
+        /* Footer R symbol: already removed from DOM but hide container just in case */
+        .framer-1xb848l { display: none !important; visibility: hidden !important; }
+
+        /* General site fixes */
+        a[href*="404"] { display: none !important; }
+	</style>
+		<style>
+		/* Hide Framer UI elements globally */
+		.__framer-badge,
+		#__framer-badge-container,
+		.framer-sdix5y,
+		.framer-sVf7t,
+		.framer-jmWos,
+		[data-framer-name="Purchase Button"],
+		[data-framer-name="Created by 2"] {
+			display: none !important;
+			opacity: 0 !important;
+			visibility: hidden !important;
+			pointer-events: none !important;
+		}
+	
+		/* Section hiding and layout fixes */
+        .framer-wfeje, .framer-unwsa7 { display: none !important; height: 0 !important; overflow: hidden !important; }
+        
+        /* Vision tweaks: Center form and hide left panel */
+        .framer-1a4ob2z { display: none !important; height: 0 !important; width: 0 !important; overflow: hidden !important; }
+        .framer-1t0mvh9 {
+            margin: 0 auto !important;
+            float: none !important;
+            display: flex !important;
+            justify-content: center !important;
+            width: 100% !important;
+        }
+
+        /* Footer logo sizing fix */
+        .framer-1b5i8re {
+            object-fit: contain !important;
+            max-width: 100% !important;
+            max-height: 100% !important;
+        }
+        
+        /* Footer R symbol: already removed from DOM but hide container just in case */
+        .framer-1xb848l { display: none !important; visibility: hidden !important; }
+
+        /* General site fixes */
+        a[href*="404"] { display: none !important; }
+	</style>
 	<script>
-		// Replace Dummy Logos
+		// Global fixes for logos and section cleansing
 		document.addEventListener('DOMContentLoaded', () => {
 			const realLogos = [
 				'https://upload.wikimedia.org/wikipedia/commons/e/e8/Binance_Logo.svg',
@@ -217,14 +188,15 @@
 					}
 				});
                 
-                // Remove team background imgs specifically
-                const teamSec = document.querySelectorAll('.framer-unwsa7 img');
+                // Ensure no images are showing in hidden/removed sections
+                const teamSec = document.querySelectorAll('.framer-unwsa7 img, .framer-wfeje img');
                 teamSec.forEach(img => { img.style.display = 'none'; });
 			});
 
 			observer.observe(document.body, { childList: true, subtree: true, attributes: true });
 		});
 	</script>
+	
 	<meta charset="utf-8">
 	
 	

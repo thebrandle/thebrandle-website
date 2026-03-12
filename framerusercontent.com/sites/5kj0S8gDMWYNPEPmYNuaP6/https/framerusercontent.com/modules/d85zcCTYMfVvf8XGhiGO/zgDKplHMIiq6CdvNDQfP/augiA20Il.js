@@ -2209,9 +2209,8 @@ const Component = /*#__PURE__*/ React.forwardRef(function (props, ref) {
                               positionX: "59.6%",
                               positionY: "50%",
                               sizes: componentViewport?.width || "100vw",
-                              src: "/framerusercontent.com/images/muteeb_pic.png?width=2500&height=1500",
-                              srcSet:
-                                "/framerusercontent.com/images/muteeb_pic.png?scale-down-to=512&width=2500&height=1500 512w,/framerusercontent.com/images/muteeb_pic.png?scale-down-to=1024&width=2500&height=1500 1024w,/framerusercontent.com/images/muteeb_pic.png?scale-down-to=2048&width=2500&height=1500 2048w,/framerusercontent.com/images/muteeb_pic.png?width=2500&height=1500 2500w",
+                              src: "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+                              srcSet: "",
                             },
                             initial: animation19,
                           },
@@ -2222,9 +2221,8 @@ const Component = /*#__PURE__*/ React.forwardRef(function (props, ref) {
                               pixelHeight: 1500,
                               pixelWidth: 2500,
                               sizes: componentViewport?.width || "100vw",
-                              src: "/framerusercontent.com/images/muteeb_pic.png?width=2500&height=1500",
-                              srcSet:
-                                "/framerusercontent.com/images/muteeb_pic.png?scale-down-to=512&width=2500&height=1500 512w,/framerusercontent.com/images/muteeb_pic.png?scale-down-to=1024&width=2500&height=1500 1024w,/framerusercontent.com/images/muteeb_pic.png?scale-down-to=2048&width=2500&height=1500 2048w,/framerusercontent.com/images/muteeb_pic.png?width=2500&height=1500 2500w",
+                              src: "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+                              srcSet: "",
                             },
                           },
                         },
@@ -2246,9 +2244,8 @@ const Component = /*#__PURE__*/ React.forwardRef(function (props, ref) {
                               pixelHeight: 1500,
                               pixelWidth: 2500,
                               sizes: componentViewport?.width || "100vw",
-                              src: "/framerusercontent.com/images/muteeb_pic.png?width=2500&height=1500",
-                              srcSet:
-                                "/framerusercontent.com/images/muteeb_pic.png?scale-down-to=512&width=2500&height=1500 512w,/framerusercontent.com/images/muteeb_pic.png?scale-down-to=1024&width=2500&height=1500 1024w,/framerusercontent.com/images/muteeb_pic.png?scale-down-to=2048&width=2500&height=1500 2048w,/framerusercontent.com/images/muteeb_pic.png?width=2500&height=1500 2500w",
+                              src: "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+                              srcSet: "",
                             },
                             className: "framer-1tl276o",
                             "data-framer-appear-id": "1tl276o",
@@ -7966,7 +7963,7 @@ const Component = /*#__PURE__*/ React.forwardRef(function (props, ref) {
                                     sizes: `max(min(${
                                       componentViewport?.width || "100vw"
                                     } - 48px, 1848px), 1px)`,
-                                    src: "/framerusercontent.com/images/muteeb_bw.png?width=645&height=908",
+                                    src: "/framerusercontent.com/images/muteeb_pic.png?width=645&height=908",
                                     srcSet: "",
                                   },
                                 },
@@ -7981,7 +7978,7 @@ const Component = /*#__PURE__*/ React.forwardRef(function (props, ref) {
                                     sizes: `max((min(${
                                       componentViewport?.width || "100vw"
                                     } - 64px, 1848px) - 80px) / 3, 1px)`,
-                                    src: "/framerusercontent.com/images/muteeb_bw.png?width=645&height=908",
+                                    src: "/framerusercontent.com/images/muteeb_pic.png?width=645&height=908",
                                     srcSet: "",
                                   },
                                 },
@@ -8009,7 +8006,7 @@ const Component = /*#__PURE__*/ React.forwardRef(function (props, ref) {
                                   sizes: `max((min(${
                                     componentViewport?.width || "100vw"
                                   } - 72px, 1848px) - 40px) / 4, 1px)`,
-                                  src: "/framerusercontent.com/images/muteeb_bw.png?width=645&height=908",
+                                  src: "/framerusercontent.com/images/muteeb_pic.png?width=645&height=908",
                                   srcSet: "",
                                 },
                                 className: "framer-13fa9aj",
