@@ -658,13 +658,13 @@ const Component = /*#__PURE__*/ React.forwardRef(function (props, ref) {
                                                           "--framer-text-color":
                                                             "var(--token-09fd1980-8076-4f0b-8bb4-7ba5919ad6b8, rgb(12, 12, 12))",
                                                         },
-                                                        children: "John Taylor",
+                                                        children: "Brandle Team",
                                                       }),
                                                   }
                                                 ),
                                                 className: "framer-f8m59i",
                                                 "data-framer-name":
-                                                  "John Taylor",
+                                                  "Brandle Team",
                                                 fonts: ["Inter"],
                                                 verticalAlignment: "top",
                                                 withExternalLayout: true,

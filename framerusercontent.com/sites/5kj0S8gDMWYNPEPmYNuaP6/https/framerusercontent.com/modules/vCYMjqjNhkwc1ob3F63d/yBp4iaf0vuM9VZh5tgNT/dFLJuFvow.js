@@ -506,7 +506,7 @@ const Component = /*#__PURE__*/ React.forwardRef(function (props, ref) {
                                                                           "var(--token-09fd1980-8076-4f0b-8bb4-7ba5919ad6b8, rgb(12, 12, 12))",
                                                                       },
                                                                       children:
-                                                                        "John Taylor",
+                                                                        "Brandle Team",
                                                                     }
                                                                   ),
                                                               }
@@ -514,7 +514,7 @@ const Component = /*#__PURE__*/ React.forwardRef(function (props, ref) {
                                                           className:
                                                             "framer-1hb9nbm",
                                                           "data-framer-name":
-                                                            "John Taylor",
+                                                            "Brandle Team",
                                                           fonts: ["Inter"],
                                                           text: FauhwFXoAv75Tpw1Yr,
                                                           verticalAlignment:
@@ -596,7 +596,7 @@ const Component = /*#__PURE__*/ React.forwardRef(function (props, ref) {
                                                           /*#__PURE__*/ _jsx(
                                                             Link,
                                                             {
-                                                              href: "tel:555-666-7777",
+                                                              href: "tel:+971561429789",
                                                               motionChild: true,
                                                               nodeId:
                                                                 "m0MW19Kfz",
@@ -613,7 +613,7 @@ const Component = /*#__PURE__*/ React.forwardRef(function (props, ref) {
                                                                     "data-styles-preset":
                                                                       "jNXIpkS6r",
                                                                     children:
-                                                                      "(510) 895-6500",
+                                                                      "+971 56 142 9789",
                                                                   }
                                                                 ),
                                                             }
@@ -623,7 +623,7 @@ const Component = /*#__PURE__*/ React.forwardRef(function (props, ref) {
                                                 ),
                                                 className: "framer-no3feq",
                                                 "data-framer-name":
-                                                  "(510) 895-6500",
+                                                  "+971 56 142 9789",
                                                 fonts: ["Inter"],
                                                 verticalAlignment: "top",
                                                 withExternalLayout: true,
@@ -657,7 +657,7 @@ const Component = /*#__PURE__*/ React.forwardRef(function (props, ref) {
                                                           /*#__PURE__*/ _jsx(
                                                             Link,
                                                             {
-                                                              href: "mailto:hello@thebrandlestudio.com",
+                                                              href: "mailto:hello@thebrandle.com",
                                                               motionChild: true,
                                                               nodeId:
                                                                 "rlQZ10Wnx",
@@ -674,7 +674,7 @@ const Component = /*#__PURE__*/ React.forwardRef(function (props, ref) {
                                                                     "data-styles-preset":
                                                                       "jNXIpkS6r",
                                                                     children:
-                                                                      "hello@thebrandlestudio.com",
+                                                                      "hello@thebrandle.com",
                                                                   }
                                                                 ),
                                                             }
@@ -684,7 +684,7 @@ const Component = /*#__PURE__*/ React.forwardRef(function (props, ref) {
                                                 ),
                                                 className: "framer-1ts53xy",
                                                 "data-framer-name":
-                                                  "hello@thebrandlestudio.com",
+                                                  "hello@thebrandle.com",
                                                 fonts: ["Inter-SemiBold"],
                                                 verticalAlignment: "top",
                                                 viewBox: "0 0 308 38",
@@ -772,7 +772,7 @@ const Component = /*#__PURE__*/ React.forwardRef(function (props, ref) {
                                                                           "rgba(12, 12, 12, 0.6)",
                                                                       },
                                                                       children:
-                                                                        "123 Creative Lane, Washington, D.C., 20001",
+                                                                        "UAE, Dubai",
                                                                     }
                                                                   ),
                                                               }
@@ -1342,7 +1342,7 @@ const Component = /*#__PURE__*/ React.forwardRef(function (props, ref) {
                                         UIArrowButton,
                                         {
                                           DmH_FL2P8:
-                                            "mailto:hello@thebrandlestudio.com",
+                                            "mailto:hello@thebrandle.com",
                                           height: "100%",
                                           id: "Z21v0qSpZ",
                                           layoutId: "Z21v0qSpZ",
