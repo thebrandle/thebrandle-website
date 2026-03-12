@@ -189,7 +189,7 @@ const Component = /*#__PURE__*/ React.forwardRef(function (props, ref) {
                                   "RlM7QmViYXMgTmV1ZS1yZWd1bGFy",
                                 "--framer-font-family":
                                   '"Bebas Neue", "Bebas Neue Placeholder", sans-serif',
-                                "--framer-font-size": "190.7361900006483px",
+                                "--framer-font-size": "120px",
                                 "--framer-letter-spacing": "-0.04em",
                                 "--framer-line-height": "82%",
                                 "--framer-text-alignment": "left",
@@ -209,7 +209,7 @@ const Component = /*#__PURE__*/ React.forwardRef(function (props, ref) {
                             "--framer-paragraph-spacing": "0px",
                           },
                           verticalAlignment: "top",
-                          viewBox: "0 0 288 156",
+                          viewBox: "0 0 620 156",
                           withExternalLayout: true,
                           ...addPropertyOverrides(
                             {
@@ -221,8 +221,8 @@ const Component = /*#__PURE__*/ React.forwardRef(function (props, ref) {
                                         "RlM7QmViYXMgTmV1ZS1yZWd1bGFy",
                                       "--framer-font-family":
                                         '"Bebas Neue", "Bebas Neue Placeholder", sans-serif',
-                                      "--framer-font-size":
-                                        "177.8245900991515px",
+                                        "--framer-font-size":
+                                        "110px",
                                       "--framer-letter-spacing": "-0.04em",
                                       "--framer-line-height": "82%",
                                       "--framer-text-alignment": "left",
@@ -232,7 +232,7 @@ const Component = /*#__PURE__*/ React.forwardRef(function (props, ref) {
                                     children: "Thebrandle",
                                   }),
                                 }),
-                                viewBox: "0 0 269 146",
+                                viewBox: "0 0 580 146",
                               },
                             },
                             baseVariant,
