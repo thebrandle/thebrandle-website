@@ -1,4 +1,5 @@
 {
+  "outputDirectory": "thebrandle.framer.website",
   "rewrites": [
     { "source": "/", "destination": "/thebrandle.framer.website/index.html" }
   ]
