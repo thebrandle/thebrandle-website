@@ -1,6 +1,7 @@
 {
+  "buildCommand": "",
   "outputDirectory": "thebrandle.framer.website",
   "rewrites": [
-    { "source": "/(?!.*\\..*)", "destination": "/index.html" }
+    { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
